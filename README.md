@@ -12,7 +12,8 @@ docker compose up -d
 ```
 curl http://localhost
 ```
-> Ожидаемый ответ\>
+> Ожидаемый ответ\
+
 Hello from Effective Mobile!
 
 ## Архитектура
