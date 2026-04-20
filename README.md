@@ -12,7 +12,7 @@ docker compose up -d
 ```
 curl http://localhost
 ```
-> Ожидаемый ответ
+> Ожидаемый ответ\
 Hello from Effective Mobile!
 
 ## Архитектура
@@ -21,17 +21,17 @@ Client -> Nginx (port 80) -> Backend (port 8080)
 - Проксирует их на backend-сервис
 - Backend отвечает простым HTTP-сервером
 ## Структура
-.
-├── backend
-│   ├── app.py
-│   └── Dockerfile
-├── docker-compose.yml
-├── .env
-├── .env.example
-├── Makefile
-├── nginx
-│   └── nginx.conf
-└── README.md
+.\
+├── backend\
+│   ├── app.py\
+│   └── Dockerfile\
+├── docker-compose.yml\
+├── .env\
+├── .env.example\
+├── Makefile\
+├── nginx\
+│   └── nginx.conf\
+└── README.md\
 ## Полезные команды
 ```
 make up         # запуск
